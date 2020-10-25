@@ -1,0 +1,8 @@
+.messageBody{
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+    .messageBody__body{
+        display: flex;
+    }
+}

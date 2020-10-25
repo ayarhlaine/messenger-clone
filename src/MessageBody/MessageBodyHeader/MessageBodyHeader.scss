@@ -1,0 +1,31 @@
+@import 'styles/colors';
+.messageBodyHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 1px 1px lightgray;
+    padding: 10px;
+    .messageBodyHeader__container{
+        display: flex;
+        flex: 1;
+        .messageBodyHeader__left{
+            display: flex;
+            align-items: center;
+            flex: 6;
+            h3 {
+                margin-left: 5px;
+            }
+        }
+        .messageBodyHeader__right{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex: 3;
+            .MuiSvgIcon-root{
+                font-size: 30px;
+                margin-right: 10px;
+                color: $messenger-icon-blue-color;
+            }
+        }
+    }
+}

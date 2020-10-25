@@ -1,0 +1,32 @@
+@import 'styles/colors';
+.userMessage{
+    display: flex;
+    .userMessage__left{
+        display: flex;
+        align-items: flex-end;
+    }
+    .userMessage__right{
+        .userMessage__content__user{
+           font-size: 12px;
+           color: gray;
+           padding: 10px;
+        }
+        .userMessage__content{
+            display: flex;
+            margin-left: 5px;
+            background-color: $messenger-gray-color;
+            padding: 10px;
+            border-radius: 20px;
+            p {
+                width: 250px;
+            }
+        }
+    }
+}
+.userMessage--me{
+    margin-left: auto;
+    .userMessage__content{
+        background-color: $messenger-background-blue !important;
+        color: white !important;
+    }
+}

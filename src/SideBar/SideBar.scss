@@ -1,0 +1,39 @@
+@import 'styles/colors';
+.sideBar{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+    .sideBar__header{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        padding: 10px;
+        h2 {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+        .sideBar__header__icon__button{
+            background-color: $messenger-gray-color;
+            margin-left: 5px;
+        }
+    }
+    .sideBar__messageList{
+        padding: 10px;
+        height: 100vh;
+        overflow-y: auto;
+        .sideBar__search__input{
+            display: flex;
+            border-radius: 50px;
+            background-color: $messenger-gray-color;
+            align-items: center;
+            padding: 10px;
+            input {
+                border: none;
+                background: transparent;
+                outline-width: 0;
+            }
+        }
+    }
+}
