@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/messenger-clone/static/css/main.ead1cc08.chunk.css",
+    "main.js": "/messenger-clone/static/js/main.9f2d6e37.chunk.js",
+    "main.js.map": "/messenger-clone/static/js/main.9f2d6e37.chunk.js.map",
+    "runtime-main.js": "/messenger-clone/static/js/runtime-main.5b3007d0.js",
+    "runtime-main.js.map": "/messenger-clone/static/js/runtime-main.5b3007d0.js.map",
+    "static/js/2.771f593b.chunk.js": "/messenger-clone/static/js/2.771f593b.chunk.js",
+    "static/js/2.771f593b.chunk.js.map": "/messenger-clone/static/js/2.771f593b.chunk.js.map",
+    "static/js/3.f58b9b2b.chunk.js": "/messenger-clone/static/js/3.f58b9b2b.chunk.js",
+    "static/js/3.f58b9b2b.chunk.js.map": "/messenger-clone/static/js/3.f58b9b2b.chunk.js.map",
+    "index.html": "/messenger-clone/index.html",
+    "static/css/main.ead1cc08.chunk.css.map": "/messenger-clone/static/css/main.ead1cc08.chunk.css.map",
+    "static/js/2.771f593b.chunk.js.LICENSE.txt": "/messenger-clone/static/js/2.771f593b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b3007d0.js",
+    "static/js/2.771f593b.chunk.js",
+    "static/css/main.ead1cc08.chunk.css",
+    "static/js/main.9f2d6e37.chunk.js"
+  ]
+}
