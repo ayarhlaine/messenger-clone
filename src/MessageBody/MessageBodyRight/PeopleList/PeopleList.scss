@@ -1,0 +1,15 @@
+@import 'styles/colors';
+.peopleList{
+    .peopleList__addPeople{
+        padding: 10px 5px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .MuiSvgIcon-root{
+            color: $messenger-background-blue;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}

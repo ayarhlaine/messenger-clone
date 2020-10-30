@@ -1,0 +1,32 @@
+@import 'styles/colors';
+.userMessageInput{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    .userMessageInput__InputContainer{
+        display: flex;
+        align-items: center;
+        flex: 1;
+        background-color: $messenger-gray-color;
+        border-radius: 25px;
+        padding: 5px 10px;
+        input{
+            display: flex;
+            flex: 1;
+            background-color: transparent;
+            border: none;
+            outline-width: 0;
+        }
+    }
+    .MuiSvgIcon-root{
+        font-size: 30px;
+        color: $messenger-background-blue;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .MuiSvgIcon-root:last-child{
+        margin-left: 5px;
+    }
+}

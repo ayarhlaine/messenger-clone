@@ -1,4 +1,74 @@
+@import 'styles/colors';
 .messageBodyRight{
     display: flex;
     flex: 3;
+    flex-direction: column;
+    padding-top: 10px;
+    .messageBodyRight__IconContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        .messageBodyRight__icon{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .messageBodyRight__Title{
+        display: flex;
+        padding: 5px 10px;
+        input{
+            flex: 1;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .ActionButton--theme{
+        .MuiSvgIcon-root{
+            color:  $messenger-background-blue;
+        }
+    }
+    .ActionButton--background--gray{
+        .MuiSvgIcon-root{
+            background-color:  lightgray;
+            border-radius: 50px;
+            padding: 3px;
+        }
+    }
+    .messageBodyRight__Title__input{
+        border: 1px solid transparent;
+        outline-width: 0;
+    }
+    .messageBodyRight__Title__input:hover{
+        border: 1px solid lightgray;
+    }
+    .messageBodyRight__IconContainer__icon{
+        position: relative;
+        .messageBodyRight__IconContainer__edit{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba($color: #e3e3e3, $alpha: 0.5);
+            .messageBodyRight__IconContainer__edit__container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $messenger-gray-color;
+                padding: 7px 10px;
+                border-radius: 5px;
+                font-size: 12px;
+                font-weight: bold;
+                .MuiSvgIcon-root{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }

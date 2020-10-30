@@ -1,0 +1,20 @@
+@import 'styles/colors';
+.actionDropDown{
+    display: flex;
+    padding: 15px 5px;
+    border-bottom: solid 1px lightgray;
+    border-left: none;
+    border-right: none;
+    color: gray;
+    cursor: pointer;
+    p{
+        flex: 1;
+        font-size: 14px;
+    }
+}
+.actionDropDown--first--child{
+    border-top: solid 1px lightgray;;
+}
+.actionDropDown:hover{
+    background-color: $messenger-gray-color;
+}

@@ -1,0 +1,21 @@
+@import 'styles/colors';
+.people{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    .people__icon{
+        margin-right: 5px;
+    }
+    .people__name{
+        flex: 1;
+        font-size: 14px;
+    }
+    .people__admin{
+        font-size: 12px;
+        color: gray;
+    }
+}
+.people:hover{
+    background-color: $messenger-gray-color;
+}
